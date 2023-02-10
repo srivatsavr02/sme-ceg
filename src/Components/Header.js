@@ -47,6 +47,12 @@ class Header extends Component {
             </li>
 
             <li>
+              <a className="smoothscroll" href="#activities">
+                Activities
+              </a>
+            </li>
+
+            <li>
               <a className="smoothscroll" href="#events">
                 Events
               </a>
@@ -55,15 +61,6 @@ class Header extends Component {
             <li>
               <a className="smoothscroll" href="#team">
                 Team
-              </a>
-            </li>
-
-            <li>
-              <a
-                className="smoothscroll"
-                href="https://www.annauniv.edu/dme/special-machine-shop.html"
-              >
-                Machines
               </a>
             </li>
 

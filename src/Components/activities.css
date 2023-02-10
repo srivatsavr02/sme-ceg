@@ -1,0 +1,86 @@
+html {
+  font-size: 18px;
+  line-height: 1.5;
+  font-weight: 300;
+  color: #333;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.wrapper {
+  padding: 5rem;
+}
+
+.container {
+height: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-left: 5rem;
+margin-top: 5rem;
+}
+
+section {
+  width: 100%;
+}
+
+.outer-wrapper {
+  max-width: 100vw;
+  overflow-x: scroll;
+  position: relative;
+  scrollbar-color: #d5ac68 #f1db9d;
+  scrollbar-width: thin;
+  -ms-overflow-style: none;
+}
+
+.outer-wrapper::-webkit-scrollbar {
+  height: 5px;
+}
+
+.inner-wrapper {
+  display: flex;
+  padding-bottom: 10px;
+}
+
+.pseudo-item {
+  height: 400px;
+  width: 369px;
+  margin-right: 5rem;
+  flex-shrink: 0;
+  background-color: rgb(109, 184, 228);
+}
+
+.pseudo-item:nth-of-type(2n) {
+  background-color: rgb(175, 213, 234);
+}
+
+h5{
+  position: relative;
+  font-size: 3vw;
+  color: #252839;
+  -webkit-text-stroke: 0.3vw #383d52;
+  text-transform: uppercase;
+  font-family: 'Courier New', Courier, monospace;
+}
+h5::before{
+  content: "ACTIVITIES....";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: #48e1c0;
+  font-family: 'Courier New', Courier, monospace;
+  -webkit-text-stroke: 0vw #48e1c0;
+  border-right: 2px solid #48e1c0;
+  overflow: hidden;
+  animation: animate 6s linear infinite;
+
+}
+@keyframes animate{
+  0%,10%,100%{
+      width: 0;
+  }
+  70%,90%{
+      width: 30%;
+  }
+}
