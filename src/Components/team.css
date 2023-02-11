@@ -9,19 +9,15 @@
     color: #333;
     font-family: "Nunito Sans", sans-serif;
   }
-  .container {
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+  
 
 .box-scroll {
   display: flex;
   flex-wrap: nowrap;
-  width: 100%;
+  width: 110%;
   overflow: auto;
   cursor: pointer;
+  margin-left: -5rem;
   /* Hiddem scroll bar */
   scrollbar-width: none;  /* Firefox */
   -ms-overflow-style: none;  /* IE and Edge */
@@ -37,11 +33,9 @@
   border: 1px solid gray;
   border-radius: 5px;
   background-color: white;
+  margin-right: 0rem;
 }
 
-.ml {
-  margin-right: 10px;
-}
 
 img {
   display: block;
@@ -56,11 +50,9 @@ p {
   .team1 {
     position: relative;
     z-index: 1;
-    margin-top: 20%;
-    margin-top: 0;
     padding: 0;
     height: 100vh;
-    background-image :"url('https://wallpaperaccess.com/full/662112.jpg')";
+    background-image :"url('https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77701404480.jpg')";
     background-attachment: fixed;
     background-color: transparent;
   }
@@ -72,28 +64,27 @@ p {
     bottom: 0;
     left: 0;
     right: 0;
-    background: url(https://wallpaperaccess.com/full/662112.jpg) center center;
-    opacity: .3;
+    background: url(https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77701404480.jpg) center center;
+    opacity: .6;
 }
   .content {
     display: flex;
-    margin: 0 auto;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    max-width: 1000px;
+    
   }
   .card{
-    min-height: 100px;
-    min-width: 280px;
-    margin-right:10px;
+    height: 100px;
+    width: 280px;
+    
 }
 
 
   .heading {
     width: 100%;
-    margin-top: 3rem;
-    margin-left: 1rem;
+    margin-top: 5rem;
+    margin-left: -8rem;
     font-weight: 900;
     font-size: 1.618rem;
     text-transform: uppercase;
@@ -113,12 +104,6 @@ p {
     bottom: 0;
   }
   
-  .description {
-    width: 100%;
-    margin-top: 0;
-    margin-left: 1rem;
-    margin-bottom: 3rem;
-  }
   
   .card {
     color: inherit;
@@ -128,7 +113,7 @@ p {
     height: 400px;
     min-height: 400px;
     perspective: 1000px;
-    margin: 4rem;
+    
     position: relative;
   }
   @media screen and (max-width: 800px) {
