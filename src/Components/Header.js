@@ -16,7 +16,8 @@ class Header extends Component {
     };
 
     const bimg = {
-      backgroundImage: 'url("https://www.annauniv.edu/cai/images/Anna3.jpg")',
+      background:
+        "linear-gradient(0deg, rgba(10, 10, 10, 0.5), rgba(10, 10, 10, 0.5)), url(https://www.annauniv.edu/cai/images/Anna3.jpg)",
       "background-position": "center",
       "background-repeat": "no-repeat",
       "background-size": "cover",

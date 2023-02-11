@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Slide from "react-reveal";
+import Fade from "react-reveal";
 import "./resume.css";
 
 class Resume extends Component {
@@ -11,11 +11,11 @@ class Resume extends Component {
 
     return (
       <section id="events">
-        <Slide left duration={1300}>
+        <Fade left duration={1000} distance="40px">
           <html>
             <body style={bimg}>
               <div class="content">
-                <h1 class="heading">EVENTS</h1>
+                <a class="link-3">EVENTS</a>
                 <a class="card" href="#!">
                   <div
                     class="front"
@@ -65,7 +65,7 @@ class Resume extends Component {
               </div>
             </body>
           </html>
-        </Slide>
+        </Fade>
       </section>
     );
   }

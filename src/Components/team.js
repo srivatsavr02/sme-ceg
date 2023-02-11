@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import Slide from "react-reveal";
 import "./team.css";
+import Fade from "react-reveal";
 
 class Team extends Component {
   render() {
@@ -10,11 +10,11 @@ class Team extends Component {
 
     return (
       <section id="team">
-        <Slide left duration={1300}>
+        <Fade top duration={1000} distance="40px">
           <html>
             <body className="team1">
               <div class="content">
-                <h1 class="heading">TEAM</h1>
+                <a class="link-2">TEAM</a>
 
                 <div class="box-scroll">
                   <div class="card ml">
@@ -53,7 +53,7 @@ class Team extends Component {
               </div>
             </body>
           </html>
-        </Slide>
+        </Fade>
       </section>
     );
   }

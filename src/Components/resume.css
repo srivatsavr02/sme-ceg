@@ -195,3 +195,51 @@
     transform: translateZ(-20px);
     top: 12px;
   }
+
+  .link-3 {
+    position: relative;
+    text-decoration: none;
+    display: inline-block;
+    color: rgb(28, 27, 27);
+    padding: 0 1px;
+    transition: color ease 0.3s;
+    width: 28%;
+    margin-top: 5rem;
+    font-weight: 900;
+    font-size: 1.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1ch;
+    line-height: 2;
+    margin-bottom: 1rem;
+    align-content: left;
+    margin-right: 60rem;
+ }
+
+  .link-3::before, .link-3::after {
+    content: '';
+    position: absolute;
+    background-color: #61b7e9;
+    z-index: -1;
+    height: 5%;
+ }
+  .link-3::before {
+    width: 0%;
+    left: 0;
+    bottom: 0;
+    transition: width ease 0.4s;
+ }
+  .link-3::after {
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    transition: all ease 0.6s;
+ }
+  .link-3:hover::before {
+    width: 100%;
+ }
+  .link-3:hover::after {
+    left: 100%;
+    width: 0%;
+    transition: all ease 0.2s;
+ }
+  
