@@ -5,10 +5,11 @@ import "./activities.css";
 class Activities extends Component {
   render() {
     const bimg = {
-      backgroundImage: 'url("https://wallpapercave.com/wp/wp2043479.jpg")',
       "background-repeat": "no-repeat",
       "background-size": "cover",
       "background-height": "100%",
+      background:
+        "linear-gradient(0deg, rgba(187, 35, 252, 0.3), rgba(187, 35, 252, 0.3)), url(https://wallpapercave.com/wp/wp2043479.jpg)",
     };
 
     return (
@@ -17,7 +18,11 @@ class Activities extends Component {
           <html>
             <body style={bimg}>
               <div class="wrapper">
-                <h5 data-text="Creative.......">ACTIVITIES....</h5>
+                <div>
+                  <span>
+                    <h1 class="change-text">Activities</h1>
+                  </span>
+                </div>
                 <section class="container">
                   <div class="outer-wrapper">
                     <div class="inner-wrapper">

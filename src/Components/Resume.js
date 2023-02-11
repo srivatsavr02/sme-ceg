@@ -4,11 +4,16 @@ import "./resume.css";
 
 class Resume extends Component {
   render() {
+    const bimg = {
+      background:
+        " linear-gradient(to right, rgba(255,0,0,0), rgba(232, 58, 87))",
+    };
+
     return (
       <section id="events">
         <Slide left duration={1300}>
           <html>
-            <body>
+            <body style={bimg}>
               <div class="content">
                 <h1 class="heading">EVENTS</h1>
                 <a class="card" href="#!">

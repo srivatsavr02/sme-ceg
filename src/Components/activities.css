@@ -53,34 +53,37 @@ section {
   background-color: rgb(175, 213, 234);
 }
 
-h5{
-  position: relative;
-  font-size: 3vw;
-  color: #252839;
-  -webkit-text-stroke: 0.3vw #383d52;
-  text-transform: uppercase;
-  font-family: 'Courier New', Courier, monospace;
-}
-h5::before{
-  content: "ACTIVITIES....";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  color: #48e1c0;
-  font-family: 'Courier New', Courier, monospace;
-  -webkit-text-stroke: 0vw #48e1c0;
-  border-right: 2px solid #48e1c0;
-  overflow: hidden;
-  animation: animate 6s linear infinite;
+@import url('https://fonts.googleapis.com/css?family=Gochi+Hand');
 
+.text {
+  font-family: 'Gochi Hand', cursive;
+  text-align: left;
 }
-@keyframes animate{
-  0%,10%,100%{
-      width: 0;
+/* Importing 5 different Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@300&family=Kaushan+Script&family=Lobster&family=Major+Mono+Display&family=Ranchers&display=swap');
+
+
+.change-text {
+  font-size: 30pt;
+  color: #3483eb;
+  animation-name: fontChange;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  letter-spacing: 0.3rem;
+}
+
+@keyframes fontChange {
+  0% {
+    font-family: 'Ranchers', cursive;
   }
-  70%,90%{
-      width: 30%;
+  30% {
+    font-family: 'Kaushan Script', cursive;
   }
+  60% {
+    font-family: 'Lobster', cursive;
+  }
+  90% {
+    font-family: 'Bitter', serif;
+  }
+  
 }
