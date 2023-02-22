@@ -19,6 +19,15 @@ margin-left: 2rem;
 margin-top: 5rem;
 }
 
+.pseudo-item:hover {
+  box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, 0.4);
+}
+
+.pseudo-item1:hover {
+  box-shadow: inset 0 0 100px 100px rgb(141, 201, 234);
+}
+
+
 section {
   width: 100%;
 }
@@ -49,9 +58,14 @@ section {
   background-color: rgb(109, 184, 228);
 }
 
-.pseudo-item:nth-of-type(2n) {
+.pseudo-item1 {
+  height: 400px;
+  width: 369px;
+  margin-right: 5rem;
+  flex-shrink: 0;
   background-color: rgb(175, 213, 234);
 }
+
 
 @import url('https://fonts.googleapis.com/css?family=Gochi+Hand');
 

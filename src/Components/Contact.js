@@ -65,7 +65,7 @@ class Contact extends Component {
                                 fontSize: "1rem",
                               }}
                             >
-                              Srivatsav&nbsp;R
+                              Michael&nbsp;Scott
                               <div
                                 style={{
                                   fontWeight: "10",
@@ -101,7 +101,7 @@ class Contact extends Component {
                                 fontSize: "1rem",
                               }}
                             >
-                              Srivatsav&nbsp;R
+                              Dwight&nbsp;Schrute
                               <div
                                 style={{
                                   fontWeight: "10",
@@ -141,7 +141,7 @@ class Contact extends Component {
                                 fontSize: "1rem",
                               }}
                             >
-                              Srivatsav&nbsp;R
+                              Jim&nbsp;Halpert
                               <div
                                 style={{
                                   fontWeight: "10",
