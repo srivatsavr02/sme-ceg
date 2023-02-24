@@ -26,36 +26,7 @@
     flex-wrap: wrap;
     max-width: 1000px;
   }
-  
-  .heading {
-    width: 100%;
-    margin-left: 1rem;
-    font-weight: 900;
-    font-size: 1.618rem;
-    text-transform: uppercase;
-    letter-spacing: 0.1ch;
-    line-height: 1;
-    padding-bottom: 0.5em;
-    margin-bottom: 1rem;
-    position: relative;
-  }
-  .heading:after {
-    display: block;
-    content: "";
-    position: absolute;
-    width: 60px;
-    height: 4px;
-    background: linear-gradient(135deg, #1a9be6, #1a57e6);
-    bottom: 0;
-  }
-  
-  .description {
-    width: 100%;
-    margin-top: 0;
-    margin-left: 1rem;
-    margin-bottom: 3rem;
-  }
-  
+ 
   .card {
     color: inherit;
     cursor: pointer;
